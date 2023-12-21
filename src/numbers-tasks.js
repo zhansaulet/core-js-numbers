@@ -650,7 +650,7 @@ function getMaxNumber(firstNumber, secondNumber) {
  */
 function getRandomInteger(min, max) {
   // throw new Error('Not implemented');
-  return Math.random() * (max - min) + min;
+  return Math.round(Math.random() * (max - min) + min);
 }
 
 /**
